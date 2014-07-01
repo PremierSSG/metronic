@@ -15,12 +15,12 @@ use yii\web\AssetBundle;
  */
 class MetronicAssetIE extends AssetBundle
 {
-    public $sourcePath = '@vendor/metronic';
+    public $sourcePath = '@vendor/premier/metronic';
 	public $jsOptions = ['condition' => 'lt IE 9'];
     public $css = [];
     public $js = [
-				    "assets/plugins/respond.min.js",
-					"assets/plugins/excanvas.min.js",
+    		"assets/plugins/respond.min.js",
+			"assets/plugins/excanvas.min.js",
     ];
     public $depends = [];
 }
