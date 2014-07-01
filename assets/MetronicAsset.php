@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class MetronicAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/metronic';
+    public $sourcePath = '@vendor/premierssg/metronic';
     public $css = ['assets/plugins/font-awesome/css/font-awesome.min.css',
   					'assets/plugins/bootstrap/css/bootstrap.min.css',
   					'assets/plugins/uniform/css/uniform.default.css',
