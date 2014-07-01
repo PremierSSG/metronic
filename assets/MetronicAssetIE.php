@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class MetronicAssetIE extends AssetBundle
 {
-    public $sourcePath = '@vendor/premier/metronic';
+    public $sourcePath = '@vendor/premierssg/metronic';
 	public $jsOptions = ['condition' => 'lt IE 9'];
     public $css = [];
     public $js = [
