@@ -1,0 +1,18 @@
+{
+    "name": "premierssg/metronic",
+    "description": "Metronic Templates",
+    "keywords": ["yii2", "extension"],
+    "homepage": "https://github.com/PremierSSG/metronic",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "William Yiu",
+            "email": "wyiu@innovarsolutions.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+    }
