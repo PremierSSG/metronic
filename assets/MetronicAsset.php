@@ -35,6 +35,6 @@ class MetronicAsset extends AssetBundle
 					"assets/plugins/uniform/jquery.uniform.min.js"
     ];
     public $depends = [
-        'vendor\metronic\assets\MetronicAssetIE',    	
+        'vendor\premierssg\metronic\assets\MetronicAssetIE',    	
     ];
 }
