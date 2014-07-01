@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace vendor\metronic\assets;
+namespace vendor\premierssg\metronic\assets;
 
 use yii\web\AssetBundle;
 
