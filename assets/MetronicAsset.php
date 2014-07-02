@@ -32,8 +32,9 @@ class MetronicAsset extends AssetBundle
 					"assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js",
 					"assets/plugins/jquery.blockui.min.js",
 					"assets/plugins/jquery.cookie.min.js",
-					"assets/plugins/uniform/jquery.uniform.min.js"
-    ];
+					"assets/plugins/uniform/jquery.uniform.min.js",
+					"assets/scripts/app.js"
+			    ];
     public $depends = [
         'vendor\premierssg\metronic\assets\MetronicAssetIE',    	
     ];
