@@ -25,7 +25,7 @@ class MetronicAsset extends AssetBundle
   					'assets/css/plugins.css'
     			];
     public $js = [
-				    "assets/plugins/jquery-1.10.2.min.js",
+//				    "assets/plugins/jquery-1.10.2.min.js",
 					"assets/plugins/jquery-migrate-1.2.1.min.js",
 					"assets/plugins/bootstrap/js/bootstrap.min.js",
 					"assets/plugins/bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.min.js",
