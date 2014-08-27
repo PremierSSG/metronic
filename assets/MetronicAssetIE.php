@@ -19,8 +19,8 @@ class MetronicAssetIE extends AssetBundle
 	public $jsOptions = ['condition' => 'lt IE 9'];
     public $css = [];
     public $js = [
-    		"assets/plugins/respond.min.js",
-			"assets/plugins/excanvas.min.js",
+    		"assets/global/plugins/respond.min.js",
+			"assets/global/plugins/excanvas.min.js",
     ];
     public $depends = [];
 }
