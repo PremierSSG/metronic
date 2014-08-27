@@ -22,6 +22,11 @@ class MetronicAsset extends AssetBundle
     				'assets/global/plugins/bootstrap/css/bootstrap.min.css',
     				'assets/global/plugins/uniform/css/uniform.default.css',
     				'assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css',
+					'assets/global/css/components.css',
+					'assets/global/css/plugins.css',
+					'assets/admin/layout/css/layout.css',
+					'assets/admin/layout/css/themes/default.css',
+					'assets/admin/layout/css/custom.css',
     			];
     public $js = [
 					// 'assets/global/plugins/jquery-1.11.0.min.js',
