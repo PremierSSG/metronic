@@ -39,6 +39,7 @@ class MetronicAsset extends AssetBundle
 					'assets/global/plugins/jquery.cokie.min.js',
 					'assets/global/plugins/uniform/jquery.uniform.min.js',
 					'assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js',
+					'assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js',
 					'assets/global/scripts/metronic.js',
 					'assets/admin/layout/scripts/layout.js',
 					'assets/admin/layout/scripts/quick-sidebar.js',
