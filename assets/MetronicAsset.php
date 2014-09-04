@@ -45,6 +45,7 @@ class MetronicAsset extends AssetBundle
 					'assets/global/plugins/flot/jquery.flot.min.js',
 					'assets/global/plugins/flot/jquery.flot.resize.min.js',
 					'assets/global/plugins/flot/jquery.flot.categories.min.js',
+					'assets/global/plugins/flot/jquery.flot.orderBars.js',					
 					'assets/global/plugins/jquery.pulsate.min.js',
 					'assets/global/plugins/bootstrap-daterangepicker/moment.min.js',
 					'assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js',
