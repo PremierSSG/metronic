@@ -61,6 +61,7 @@ class MetronicAsset extends AssetBundle
 					'assets/admin/layout/scripts/layout.js',
 					'assets/admin/layout/scripts/quick-sidebar.js',
 					'assets/global/scripts/app.js',
+					'assets/global/scripts/datatable.js',
 			    ];
     public $depends = [
         'vendor\premierssg\metronic\assets\MetronicAssetIE',    	
