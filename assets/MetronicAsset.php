@@ -29,7 +29,7 @@ class MetronicAsset extends AssetBundle
 					'assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css',
 					'assets/global/plugins/bootstrap-datepicker/css/datepicker.css',
 					'assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.css',
-					'assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css',
+					'assets/global/plugins/bootstrap-datetimepicker/css/datetimepicker.css',
 					'assets/global/css/components.css',
 					'assets/global/css/plugins.css',
 					'assets/admin/layout/css/layout.css',
