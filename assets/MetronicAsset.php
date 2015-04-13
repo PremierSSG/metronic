@@ -27,6 +27,7 @@ class MetronicAsset extends AssetBundle
     				'assets/global/plugins/fullcalendar/fullcalendar/fullcalendar.css',
 					'assets/global/plugins/select2/select2.css',
 					'assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css',
+					'assets/global/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css',
 					'assets/global/plugins/bootstrap-datepicker/css/datepicker.css',
 					'assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.css',
 					'assets/global/plugins/bootstrap-datetimepicker/css/datetimepicker.css',
@@ -64,6 +65,7 @@ class MetronicAsset extends AssetBundle
 					'assets/global/plugins/select2/select2.min.js',
 					'assets/global/plugins/datatables/media/js/jquery.dataTables.min.js',
 					'assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js',
+					'assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js',
 					'assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js',
 					'assets/global/plugins/jstree/dist/jstree.min.js',
 					'assets/global/plugins/bootbox/bootbox.min.js',
@@ -72,6 +74,7 @@ class MetronicAsset extends AssetBundle
 					'assets/admin/layout/scripts/quick-sidebar.js',
 					'assets/global/scripts/app.js',
 					'assets/global/scripts/datatable.js',
+					
 			    ];
     public $depends = [
         'vendor\premierssg\metronic\assets\MetronicAssetIE',    	
