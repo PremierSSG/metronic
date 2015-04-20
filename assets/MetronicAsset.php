@@ -30,4 +30,13 @@ class MetronicAsset extends AssetBundle
     public $depends = [
         			'vendor\premierssg\metronic\assets\MetronicAssetIE',    	
     ];
+	
+	public static function register($view) {
+		
+		parent::register($view);
+		
+		$metronicUrl = Yii::$app->assetManager->bundles['vendor\premierssg\metronic\assets\MetronicAsset']->baseUrl;
+		Yii::setAlias('@metronicAssets', $metronicUrl);
+	
+	}	
 }
