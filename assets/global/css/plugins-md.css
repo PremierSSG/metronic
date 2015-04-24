@@ -307,7 +307,7 @@ Bootstrap  Datetimepicker
 
 /* change z-index when opened in modal */
 .modal-open .datetimepicker {
-  z-index: 10055 !important;
+  z-index: 10055;
 }
 
 /***

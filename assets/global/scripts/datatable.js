@@ -299,9 +299,9 @@ var Datatable = function() {
             return table;
         },
         
-        setCountSelectedRecords: function(callback) {
+		setCountSelectedRecords: function(callback) {
         	countSelectedRecords = callback;
-        }
+        },        
 
     };
 

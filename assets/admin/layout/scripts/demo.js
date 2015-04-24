@@ -269,7 +269,7 @@ var Demo = function() {
         init: function() {
             // handles style customer tool
             handleTheme(); 
-
+            
             // handle layout style change
             $('.theme-panel .layout-style-option').change(function() {
                  setThemeStyle($(this).val());

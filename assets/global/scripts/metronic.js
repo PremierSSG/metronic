@@ -269,10 +269,10 @@ var Metronic = function() {
             }
         } 
 
-        $('body').on('keydown', '.form-md-floating-label > .form-control', function(e) { 
+        $('body').on('keydown', '.form-md-floating-label .form-control', function(e) { 
             handleInput($(this));
         });
-        $('body').on('blur', '.form-md-floating-label > .form-control', function(e) { 
+        $('body').on('blur', '.form-md-floating-label .form-control', function(e) { 
             handleInput($(this));
         });        
     }
@@ -437,6 +437,13 @@ var Metronic = function() {
         });
     };
 
+    // Handle textarea autosize 
+    var handleTextareaAutosize = function() {
+        if (typeof(autosize) == "function") {
+            autosize(document.querySelector('textarea.autosizeme'));
+        }
+    }
+
     // Handles Bootstrap Popovers
 
     // last popep popover
@@ -546,6 +553,7 @@ var Metronic = function() {
             handleAccordions(); //handles accordions 
             handleModals(); // handle modals
             handleBootstrapConfirmation(); // handle bootstrap confirmations
+            handleTextareaAutosize(); // handle autosize textareas
 
             // Hacks
             handleFixInputPlaceholderForIE(); //IE8 & IE9 input placeholder issue fix
@@ -594,6 +602,10 @@ var Metronic = function() {
             if (el) {
                 if ($('body').hasClass('page-header-fixed')) {
                     pos = pos - $('.page-header').height();
+                } else if ($('body').hasClass('page-header-top-fixed')) {
+                    pos = pos - $('.page-header-top').height();
+                } else if ($('body').hasClass('page-header-menu-fixed')) {
+                    pos = pos - $('.page-header-menu').height();
                 }
                 pos = pos + (offeset ? offeset : -1 * el.height());
             }

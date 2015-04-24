@@ -182,26 +182,6 @@ body {
   opacity: 1 ;
   filter: alpha(opacity=100) ;
 }
-.form-group.form-md-line-input:last-child {
-  margin-bottom: 0;
-}
-.form-group.form-md-line-input + .input-icon {
-  padding-top: 0;
-}
-.form-group.form-md-line-input > .input-icon {
-  padding-top: 20px;
-}
-.form-group.form-md-line-input > .input-icon > i {
-  left: 0;
-  bottom: 0;
-  margin: 11px 2px 10px 10px;
-  color: #888888;
-}
-.form-group.form-md-line-input > .input-icon.right > i {
-  left: auto;
-  right: 8px;
-  margin: 11px 2px 10px 10px;
-}
 .form-group.form-md-line-input .form-control {
   background: none;
   border: 0;
@@ -341,15 +321,8 @@ body {
 .form-group.form-md-line-input.form-md-floating-label .input-group.right-addon label {
   padding-right: 34px;
 }
-.form-group.form-md-line-input > .input-icon > i {
-  margin-top: 9px;
-}
-.form-group.form-md-line-input > .input-icon .form-control {
-  padding-left: 34px;
-}
-.form-group.form-md-line-input > .input-icon.right .form-control {
-  padding-left: 0;
-  padding-right: 34px;
+.form-group.form-md-line-input + .input-icon {
+  padding-top: 0;
 }
 .form-group.form-md-line-input .help-block {
   position: absolute;
@@ -357,6 +330,86 @@ body {
   opacity: 0 ;
   filter: alpha(opacity=0) ;
   font-size: 13px;
+}
+.form-group.form-md-line-input > .input-icon > i {
+  left: 0;
+  bottom: 0;
+  margin: 9px 2px 10px 10px;
+  color: #888888;
+}
+.form-group.form-md-line-input > .input-icon.input-icon-lg > i {
+  top: 6px;
+}
+.form-group.form-md-line-input > .input-icon.input-icon-sm > i {
+  top: -1px;
+}
+.form-group.form-md-line-input > .input-icon .form-control {
+  padding-left: 34px;
+}
+.form-group.form-md-line-input > .input-icon > label {
+  margin-top: -20px;
+}
+.form-group.form-md-line-input > .input-icon.right .form-control {
+  padding-left: 0;
+  padding-right: 34px;
+}
+.form-group.form-md-line-input > .input-icon.right > i {
+  left: auto;
+  right: 8px;
+  margin: 11px 2px 10px 10px;
+}
+.form-group.form-md-line-input + .input-group {
+  padding-top: 0;
+}
+.form-group.form-md-line-input .input-group {
+  padding-top: 0;
+}
+.form-group.form-md-line-input .input-group > label {
+  margin-top: -20px;
+}
+.form-group.form-md-line-input .input-group .input-group-addon {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.form-group.form-md-line-input .input-group + .input-group-control {
+  padding-top: 0;
+}
+.form-group.form-md-line-input .input-group .input-group-control {
+  padding-top: 0;
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+}
+.form-group.form-md-line-input .input-group .input-group-control > label {
+  margin-top: -20px;
+}
+.form-group.form-md-line-input .input-group .input-group-btn .btn {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-group.form-md-line-input .input-group .input-group-btn.btn-left .btn {
+  margin-right: 10px;
+}
+.form-group.form-md-line-input .input-group .input-group-btn.btn-right .btn {
+  margin-left: 10px;
+}
+.form-group.form-md-line-input .input-group .help-block {
+  margin-top: 35px;
+}
+.form-group.form-md-line-input .input-group.input-group-sm .help-block {
+  margin-top: 30px;
+}
+.form-group.form-md-line-input .input-group.input-group-lg .help-block {
+  margin-top: 47px;
 }
 .form-group.form-md-line-input.has-success .form-control.edited:not([readonly]) ~ label:after,
 .form-group.form-md-line-input.has-success .form-control.edited:not([readonly]) ~ .form-control-focus:after, .form-group.form-md-line-input.has-success .form-control.form-control-static ~ label:after,
@@ -445,52 +498,6 @@ body {
 }
 .form-horizontal .form-group.form-md-line-input.has-info > label {
   color: #31708f;
-}
-.form-group.form-md-line-input + .input-group {
-  padding-top: 0;
-}
-.form-group.form-md-line-input .input-group {
-  padding-top: 20px;
-}
-.form-group.form-md-line-input .input-group .input-group-addon {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
-  background: none;
-  border: 0;
-  border-bottom: 1px solid #e5e5e5;
-}
-.form-group.form-md-line-input .input-group + .input-group-control {
-  padding-top: 0;
-}
-.form-group.form-md-line-input .input-group .input-group-control {
-  padding-top: 20px;
-  position: relative;
-  display: table-cell;
-  vertical-align: bottom;
-}
-.form-group.form-md-line-input .input-group .input-group-btn .btn {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-}
-.form-group.form-md-line-input .input-group .input-group-btn.btn-left .btn {
-  margin-right: 10px;
-  margin-bottom: -20px;
-}
-.form-group.form-md-line-input .input-group .input-group-btn.btn-right .btn {
-  margin-left: 10px;
-  margin-bottom: -20px;
-}
-.form-group.form-md-line-input .input-group.input-group-sm .input-group-btn .btn {
-  margin-bottom: -20px;
-}
-.form-group.form-md-line-input .input-group.input-group-lg .input-group-btn .btn {
-  margin-bottom: -20px;
 }
 
 .form-inline .form-md-line-input {
@@ -1346,6 +1353,9 @@ Top News Blocks(new in v1.2.2)
   filter: alpha(opacity=30);
   /*For IE8*/
 }
+.top-news .btn + .btn {
+  margin-left: 0;
+}
 
 /***
 Block Images(new in v1.2.2)
@@ -1616,14 +1626,13 @@ File dropzone
 /***
 Fontawesome Icons
 ***/
-[class^="fa-"],
+[class^="fa-"]:not(.fa-stack),
 [class^="glyphicon-"],
 [class^="icon-"],
-[class*=" fa-"],
+[class*=" fa-"]:not(.fa-stack),
 [class*=" glyphicon-"],
 [class*=" icon-"] {
   display: inline-block;
-  margin-top: 1px;
   font-size: 14px;
   *margin-right: .3em;
   line-height: 14px;
@@ -1664,12 +1673,12 @@ li [class*=" icon-"].icon-large {
 }
 
 /* Icon sizing */
-.fa-sm,
+.fa-sm:not(.fa-stack),
 .icon-sm {
   font-size: 12px;
 }
 
-.fa-lg,
+.fa-lg:not(.fa-stack),
 .icon-lg {
   font-size: 16px !important;
 }
@@ -3315,6 +3324,10 @@ Forms
   display: inline-block;
   width: auto;
   vertical-align: middle;
+}
+
+.input-fixed {
+  overflow: hidden;
 }
 
 .form-group .input-inline {

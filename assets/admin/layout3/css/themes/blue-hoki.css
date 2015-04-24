@@ -381,6 +381,9 @@ Page Footer
 .page-prefooter h2 {
   color: #67809F;
 }
+.page-prefooter a {
+  color: #67809F;
+}
 .page-prefooter .subscribe-form .form-control {
   background: #343b44;
   border-color: #343b44;

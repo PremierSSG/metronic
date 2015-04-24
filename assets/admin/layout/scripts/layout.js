@@ -117,6 +117,11 @@ var Layout = function () {
     var handleSidebarMenu = function () {
         // handle sidebar link click
         $('.page-sidebar').on('click', 'li > a', function (e) {
+
+            if ($('body').hasClass('page-sidebar-closed') &&  $(this).parent('li').parent('.page-sidebar-menu').size() === 1) {
+                return;
+            }
+
             var hasSubMenu = $(this).next().hasClass('sub-menu');
 
             if (Metronic.getViewPort().width >= resBreakpointMd && $(this).parents('.page-sidebar-menu-hover-submenu').size() === 1) { // exit of hover sidebar menu
