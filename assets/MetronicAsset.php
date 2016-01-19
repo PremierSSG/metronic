@@ -23,7 +23,7 @@ class MetronicAsset extends AssetBundle
 					'assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js',
 					'assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js',
 					'assets/global/plugins/jquery.blockui.min.js',
-					'assets/global/plugins/jquery.cokie.min.js',
+					'assets/global/plugins/js.cookie.min.js',
 					'assets/global/plugins/uniform/jquery.uniform.min.js',
 					'assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js',					
 			    ];

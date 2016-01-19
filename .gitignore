@@ -1,1 +1,4 @@
 *.DS_Store
+assets/apps/*
+assets/global/img/portfolio/*
+assets/pages/*
