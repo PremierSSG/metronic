@@ -1033,7 +1033,8 @@ div.dt-button-collection {
 button.dt-button,
 div.dt-button,
 a.dt-button {
-  background-image: none !important; }
+  background-image: none !important;
+  padding: 6px 12px !important; }
   button.dt-button:last-child,
   div.dt-button:last-child,
   a.dt-button:last-child {
@@ -1163,6 +1164,18 @@ table.dataTable > tbody > tr.child ul li {
 @-moz-document url-prefix() {
   .portlet-datatable .dataTables_wrapper .table-responsive {
     padding: 0 2px !important; } }
+
+@media (max-width: 767px) {
+  /* 767px */
+  .portlet.box .dataTables_wrapper .dt-buttons,
+  .portlet.light .dataTables_wrapper .dt-buttons {
+    margin-top: 0;
+    margin-bottom: 20px; } }
+
+.table-scrollable .dataTable th .btn-group,
+.table-scrollable .dataTable td .btn-group {
+  position: absolute;
+  margin-top: -2px; }
 
 /***
 Dropzone css changes(new in v1.1.1)
@@ -1867,10 +1880,10 @@ iframe[src="about:blank"] {
 .select2-container--bootstrap .select2-selection {
   font-family: "Open Sans", sans-serif; }
 
-.select2-dropdown {
+.modal-open .select2-dropdown {
   z-index: 10060; }
 
-.select2-close-mask {
+.modal-open .select2-close-mask {
   z-index: 10055; }
 
 .modal-open .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
