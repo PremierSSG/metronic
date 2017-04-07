@@ -39,7 +39,7 @@
             signal a_eq_b : std_logic; signal a_le_b : std_logic; signal a_gt_b : std_logic; signal i,j : integer; BEGIN -- Instantiate the Unit Under Test (UUT) uut: entity work.comparator PORT MAP ( a => a, b => b, a_eq_b => a_eq_b, a_le_b => a_le_b,
             a_gt_b => a_gt_b ); -- Stimulus process stim_proc: process begin for i in 0 to 8 loop for j in 0 to 8 loop a
             <=t o_unsigned(i,3); --integer to unsigned type conversion b <=t o_unsigned(j,3); wait for 10 ns; end loop; end loop; end process;
-            END; </textarea>
+                END; </textarea>
     </div>
     <script>
         var editor = CodeMirror.fromTextArea(document.getElementById("code"),

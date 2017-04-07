@@ -50,10 +50,10 @@
             the exponent of first coefficient, plus 1. exp = p.length # Assign exponents to each term, making pairs of coeff and exponent, # Then get rid of the zero terms. p = (p.map { |c| exp -= 1; [ c, exp ] }).select { |p| p[0] != 0 } # If there's
             nothing left, it's a zero return "0" if p.empty? # *** Now p is a non-empty list of [ coef, exponent ] pairs. *** # Convert the first term, preceded by a "-" if it's negative. result = (if p[0][0]
             < 0 then "-" else "" end) + term_to_str(*p[0])
-            # Convert the rest of the terms, in each case adding the appropriate # + or - separating them. for term in p[1...p.length] # Add the separator then the rep. of the term. result +=( if term[0] < 0 then " - " else " + " end) + term_to_str(*term)
-            end return result end # # Run until some kind of endfile. begin # Repeat until an exception or quit gets us out. while true # Read a poly until it works. An EOF will except out of the # program. print "\n" begin poly=r eadints(
-            "Enter a polynomial coefficients: ") rescue TypeError print "Try again.\n" retry end break if poly.empty? # Read and evaluate x values until the user types a blank line. # Again, an EOF will except out of the pgm. while true # Request an integer. print
-            "Enter x value or blank line: " x=r eadline.chomp break if x=='' raise EOFError.new if x=='quit' # If it looks bad, let 's try again.
+                # Convert the rest of the terms, in each case adding the appropriate # + or - separating them. for term in p[1...p.length] # Add the separator then the rep. of the term. result +=( if term[0] < 0 then " - " else " + " end) + term_to_str(*term)
+                end return result end # # Run until some kind of endfile. begin # Repeat until an exception or quit gets us out. while true # Read a poly until it works. An EOF will except out of the # program. print "\n" begin poly=r eadints(
+                "Enter a polynomial coefficients: ") rescue TypeError print "Try again.\n" retry end break if poly.empty? # Read and evaluate x values until the user types a blank line. # Again, an EOF will except out of the pgm. while true # Request an integer. print
+                "Enter x value or blank line: " x=r eadline.chomp break if x=='' raise EOFError.new if x=='quit' # If it looks bad, let 's try again.
             if x !~ /^\-?\d+$/
                 print "That doesn't look like an integer. Please try again.\n "
                 next
